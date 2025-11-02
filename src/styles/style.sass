@@ -1,0 +1,33 @@
+@keyframes slide 
+    0% 
+        transform: translateX(0)
+    100% 
+        transform: translateX(-50%)
+
+.animate-slide 
+    animation: slide 25s linear infinite
+    width: max-content
+    &:hover
+        animation-play-state: paused
+        
+.project-item
+    .arrow 
+        transition: all 0.3s linear
+    .project-text
+        transition: all 0.2s linear
+    h1
+        color: #ff853a    
+    .two-lines
+        display: none
+        -webkit-line-clamp: 2
+        -webkit-box-orient: vertical
+        overflow: hidden
+        transition: all 0.3s linear
+    &:hover
+        .arrow
+            background: #ff853a
+            color: #fff
+        .project-text
+            background-color: #03030377
+        .two-lines
+            display: -webkit-box

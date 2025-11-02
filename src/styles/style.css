@@ -1,0 +1,43 @@
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.animate-slide {
+  animation: slide 25s linear infinite;
+  width: -moz-max-content;
+  width: max-content;
+}
+.animate-slide:hover {
+  animation-play-state: paused;
+}
+
+.project-item .arrow {
+  transition: all 0.3s linear;
+}
+.project-item .project-text {
+  transition: all 0.2s linear;
+}
+.project-item h1 {
+  color: #ff853a;
+}
+.project-item .two-lines {
+  display: none;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  transition: all 0.3s linear;
+}
+.project-item:hover .arrow {
+  background: #ff853a;
+  color: #fff;
+}
+.project-item:hover .project-text {
+  background-color: rgba(3, 3, 3, 0.4666666667);
+}
+.project-item:hover .two-lines {
+  display: -webkit-box;
+}/*# sourceMappingURL=style.css.map */

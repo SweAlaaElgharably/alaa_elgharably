@@ -1,0 +1,25 @@
+{
+    "data" : [
+        {
+            "university": "Information Technology Institute (ITI)",
+            "faculty": "Portsaid",
+            "degree": "4-Month Postgraduate Diploma Intensive Training Program",
+            "startdate": "March 2025",
+            "enddate": "September 2022"
+        },
+        {
+            "university": "Damietta University",
+            "faculty": "Faculty of Computers and Artificial Intelligence",
+            "degree": "Master of Computer Science",
+            "startdate": "October 2022",
+            "enddate": "Present"
+        },
+        {
+            "university": "Damietta University",
+            "faculty": "Faculty of Science",
+            "degree": "Bachelor of Computer Science",
+            "startdate": "September 2018",
+            "enddate": "July 2022"
+        }
+    ]
+}
